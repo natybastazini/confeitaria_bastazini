@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 70px 50px 1fr;
+}
+
+p{
+    color: white;
+}
+
+.telefone{
+    height: ;
+}
+
+img[alt~=telefone]{
+    height: 24px;
+}
+
+.telefone p{
+    height:16px;
+}
+
+.email{
+
+}
+
+img[alt~=email]{
+    height: 20px;
+}
+
+.email p{
+
+}
+header{
+    background-color: black;
+    display: grid;
+}
+
+title{
+    font-family: 'Yesteryear', cursive;
+    color: #FFA723;
+}
