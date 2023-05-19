@@ -32,6 +32,10 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.info{
+    
+
+}
 
 p{
     color: white;
@@ -40,6 +44,7 @@ p{
 .telefoneEmail{
     text-align: right;
     width: 24vw;
+    margin-left: 50px;
 }
 
 /* nav */
@@ -55,12 +60,14 @@ p{
 }
 
 .logo-imagem{
-    width: 80px;
+    width: 60px;
+    margin-right: 30px;
 }
 
 .textoComplementar{
     color: black;
     width: 200vw;
+    align-items: center;
 }
 
 .barraDeNav {
@@ -75,10 +82,9 @@ p{
 
 .pesquisar{
     width: 100px;
+    align-items: center;
+
 }
-
-/*  main */
-
 main{
     background-image: url(./img/borda\ de\ fundo.png);
     background-repeat: no-repeat; 
@@ -87,6 +93,7 @@ main{
 
 .nome{
     width: 260px;
+    background-size: cover;
 }
 
 .textoComplementar{
@@ -100,4 +107,9 @@ main{
 
 .cookie{
     width: 70px;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
 }
