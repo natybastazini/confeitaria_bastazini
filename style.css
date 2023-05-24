@@ -19,6 +19,7 @@ title{
 
 .logar{
     text-align: left;
+    font-size: 20px;
 }
 .description{
     color: black;
@@ -52,6 +53,7 @@ p{
 .navegacao{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo{
@@ -96,9 +98,14 @@ main{
     background-size: cover;
 }
 
-.textoComplementar{
-    width: 280px;
-    height: 100px;
+.text__complementar{
+    align-items: center;
+    width: 260px;
+    margin-left: 180px;
+}
+
+.textinho{
+    color: black;
 }
 
 .croassant{
@@ -111,5 +118,13 @@ main{
 
 .principal{
     display: flex;
+    align-items: center;
+    margin-left: 180px;
     justify-content: space-between;
+    margin-right: 310px;
+    margin-top: 64px;
+}
+
+.compra{
+    background-size: 10px;
 }
