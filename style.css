@@ -136,7 +136,14 @@ main{
     margin-top: 64px;
 }
 
-.botao-compra{
-    width: 12px;
-    height: 12px;
+.compra-botao{
+    height: 40px;
+    margin-left: 180px;
+    margin-top: 40px;
 }
+
+@media(max-width:1024px){
+    body{
+        background-position: center;
+        background-size: cover;
+    }
