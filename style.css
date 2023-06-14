@@ -11,19 +11,11 @@ body{
     
 }
 
-
-title{
-    font-family: 'Yesteryear', cursive;
-    color: #FFA723;
-}
-
 .logar{
     text-align: left;
     font-size: 20px;
 }
-.description{
-    color: black;
-}
+
 
 /* logins */
 
@@ -32,11 +24,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.info{
-    
-
 }
 
 p{
@@ -60,6 +47,10 @@ p{
 .logo{
     height: 2vw;
     width: 2vw;
+}
+
+.tresbarras{
+    display: none;
 }
 
 .logo-imagem{
@@ -95,9 +86,7 @@ p{
 }
 
 .pesquisar{
-    width: 100px;
-    align-items: center;
-
+    margin-left: 400px;
 }
 
 img[alt~=pesquisar]{
@@ -142,8 +131,109 @@ main{
     margin-top: 40px;
 }
 
+.tituloipad{
+    display: none;
+}
+
 @media(max-width:1024px){
-    body{
-        background-position: center;
-        background-size: cover;
-    }
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 160px 200px 1fr;
+    background-size: cover;
+}
+
+main{
+    background-image: url(./img/borda-ipad.png);
+    background-repeat: no-repeat; 
+    align-items: center ;
+ 
+
+}
+
+.logar{
+    text-align: left;
+    font-size: 40px;
+}
+
+
+.logo-imagem{
+    height: 100px;
+    width: 200px;
+}
+
+.group3{
+    height: 600px;
+}
+
+.tresbarras{
+    height: 100px;
+}
+
+.barraDeNav{
+    display: none;
+}
+
+
+
+.nome{
+    display: none;
+}
+
+.text{
+    display: none;
+}
+
+.croassant{
+    display: none;
+}
+
+.cookie{
+    display: none;
+}
+
+.tresbarras{
+    display: block;
+    margin-right: 560px;
+}
+
+.compra{
+    margin-right: 200px;
+}
+.compra-botao{
+    height: 160px;
+}
+
+.principal{
+    justify-content: space-evenly;
+}
+}
+
+@media (max-width:px){
+
+main{
+    background-image: url(./img/fundocelular.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.text__complementar{
+    display: none;
+}
+
+.principal{
+    display: none;
+}
+
+
+
+    
+}
+
+
+
+
+
+
+
