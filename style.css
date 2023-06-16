@@ -148,7 +148,7 @@ main{
     background-image: url(./img/borda-ipad.png);
     background-repeat: no-repeat; 
     align-items: center ;
- 
+    height: 100%;
 
 }
 
@@ -178,7 +178,10 @@ main{
 
 
 .nome{
-    display: none;
+    height: 880px;
+    width: 700px;
+    margin-left: 60px;
+    margin-bottom: 860px;
 }
 
 .text{
@@ -186,7 +189,10 @@ main{
 }
 
 .croassant{
-    display: none;
+    height: 680x;
+    width: 600px;
+    margin-bottom: 10px;
+    margin-right: 400px;
 }
 
 .cookie{
@@ -202,34 +208,104 @@ main{
     margin-right: 200px;
 }
 .compra-botao{
-    height: 160px;
+    height: 280px;
+    margin-bottom: 200px;
+    margin-top: 40px;
 }
 
 .principal{
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+.telefone img{
+    height: 80px;
+    width: 100px;
+    margin-right: 80px;
 }
 }
 
-@media (max-width:px){
+@media (max-width: 667px){
+    
 
 main{
-    background-image: url(./img/fundocelular.png);
+    height: 100%;
+    background-image: none;
     background-repeat: no-repeat; 
     background-size: cover;
+    align-items: center;
+    
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 260px 280px 1fr;
+    background-size: cover;
+
+}
+
+
+
+.logar{
+    text-align: left;
+    font-size: 40px;
+}
+
+.compra{
+    margin-right: 1000px;
+    margin-left: 100px;
+}
+
+.telefone{
+    margin-right: 1500px;
+    margin-top: 200px;
+    height: 200px;
+}
+
+.logo-imagem{
+    height: 200px;
+    width: 100px;
 }
 
 .text__complementar{
     display: none;
 }
 
-.principal{
-    display: none;
+.nome {
+    height: 600px;
+    width: 680px;
+    right: 20px;
+}
+
+.nome img{
+    margin-right: 80px;
+}
+
+.croassant{
+    position: absolute;
+    left: 480px;
+}
+
+.pesquisar{
+    margin-right: 380px;
+    margin-left: 280px;
+}
+.telefone img{
+    width: 120px;
+    height: 80px;
 }
 
 
+.compra-botao{
+    margin-bottom: 600px;
+    margin-right: 200px;
+    margin-top: -150px;
+}
 
     
 }
+
+
 
 
 
